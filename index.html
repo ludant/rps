@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>.</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--have the backgrounds ready in the browser on page startup-->
+  <div id="loadBackgrounds" class="invisible">
+    <img src="scissors.jpg">
+    <img src="paper.png">
+    <img src="rock.jpg">
+  </div>
+  <header class="score-box top-box">
+    <div id="title0" class="score">player</div>
+    <div id="title1" class="score">tie</div>
+    <div id="title2" class="score">computer</div>
+    <div class="invisible">rock</div>
+    <div class="invisible">paper</div>
+    <div class="invisible">scissors</div>
+    <div id="score0" class="score">0</div>
+    <div id="score1" class="score">0</div>
+    <div id="score2" class="score">0</div>
+  </header>
+  <div id="container" class="center-controller">
+    <div id="winState" class="invisible">.</div><br>
+    <div id="output" class="invisible">.</div><br>
+    <div id="buttons">
+      <button id="button0" class="button">rock</button>
+      <button id="button1" class="button">paper</button>
+      <button id="button2" class="button">scissors</button>
+    </div>
+  </div>
+  <footer class="score-box bottom-box">
+    <div id="title3" class="score">rock</div>
+    <div id="title4" class="score">paper</div>
+    <div id="title5" class="score">scissors</div>
+    <div class="invisible">rock</div>
+    <div class="invisible">paper</div>
+    <div class="invisible">scissors</div>
+    <div id="count0" class="score">0</div>
+    <div id="count1" class="score">0</div>
+    <div id="count2" class="score">0</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
